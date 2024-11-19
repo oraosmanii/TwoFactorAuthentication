@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A48893">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="223dp"
+            android:layout_height="287dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/shape" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="serif"
+            android:text="Log In"
+            android:textColor="#FFFCFC"
+            android:textSize="48sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:backgroundTint="#FFFCFC"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:shadowColor="#FFFCFC"
+            android:textColor="#FFFCFC"
+            android:textColorHighlight="#FFFCFC"
+            android:textColorHint="#FFFCFC"
+            android:textColorLink="#FFFCFC" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FFFCFC"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFCFC" />
+
+        <Button
+            android:id="@+id/logInBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#6D40BA"
+            android:shadowColor="#280E52"
+            android:text="Log in"
+            android:textColorLink="#FFFCFC"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
