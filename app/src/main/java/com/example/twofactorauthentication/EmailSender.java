@@ -15,8 +15,8 @@ public class EmailSender {
 
     private final String host = "smtp.gmail.com";
     private final String port = "587";
-    private final String userEmail = "twofactorauthentication12@gmail.com";
-    private final String userPassword = "qidm mnvp letu xbbq";
+    private final String userEmail = "senderEmail"; //nje email nga e cila dergohet otp
+    private final String userPassword = "password"; //app password per email-in e dhene
 
     public void sendEmail(String destinationEmail, String otp) throws MessagingException {
         Properties properties = new Properties();
